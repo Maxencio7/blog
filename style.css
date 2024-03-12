@@ -1,0 +1,165 @@
+/*  black background Nav bar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Add padding and a bit of margin */
+  padding: 0px;
+  margin: -6px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* */
+.navbar a {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.search {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: black;
+  margin: 14px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ddd;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+header {
+  text-align: left;
+  color: blanchedalmond;
+  height: 100px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  text-align: left;
+  margin: 0;
+}
+h1 {
+  text-decoration: underline;
+}
+.article-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  margin-top: 0;
+}
+
+.article-description {
+  margin-bottom: 20px;
+}
+
+.read-more-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+  background-color: #3e8e41;
+}
+#blog-posts {
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: initial;
+}
+
+#new-post-form {
+  display: flex;
+  flex-direction: column;
+  text-decoration-style: solid;
+}
+
+#new-post-form label {
+  margin-bottom: 5px;
+}
+
+#new-post-form input,
+#new-post-form textarea {
+  margin-bottom: 5px;
+}
+#submitButton {
+  background-color: #3e8e41;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  color: #ddd;
+  margin: 8px;
+}
+.article-box {
+  margin: 9px;
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+  padding: -500px;
+}
+.read-more-button {
+  padding: 5px;
+  margin: auto;
+  text-decoration: none;
+}
+.submit {
+  background-color: #3e8e41;
+  color: white;
+}
+.LinkedIn {
+  width: 100%;
+  height: auto;
+  display: inline;
+}
+.Github {
+  width: 100%;
+  height: auto;
+  display: inline;
+}
+html {
+  background: url("image.png") no-repeat center fixed;
+  background-size: cover;
+}
+@media all and (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}
